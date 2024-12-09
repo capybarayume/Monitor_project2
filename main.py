@@ -2,7 +2,7 @@ import os
 import cv2
 import time
 import glob
-from emling import send_email
+from emailing import send_email
 from threading import Thread
 from sys import exit
 
