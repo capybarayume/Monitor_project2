@@ -49,7 +49,7 @@ while True:
         x,y,w,h=cv2.boundingRect(contour)
         retangle=cv2.rectangle(frame,(x,y),(x+w,y+h),(0,255,0),3)
 
-        #if their is any retangle appear start to save images
+        #if there has any retangle appear then start to save images
         if retangle.any():
             status=1
 
